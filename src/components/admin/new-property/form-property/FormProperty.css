@@ -1,0 +1,9 @@
+.new-property-form {
+  display: grid;
+  row-gap: 32px;
+}
+
+.new-property-switch-grid {
+  display: flex;
+  justify-content: space-between;
+}

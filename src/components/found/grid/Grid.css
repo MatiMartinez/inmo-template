@@ -1,0 +1,13 @@
+.grid-content {
+}
+
+.grid-content-title {
+  font-size: 1.5rem;
+  margin: 32px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px 16px;
+}

@@ -1,0 +1,14 @@
+.new-locality-head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 32px;
+  column-gap: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.new-locality-body {
+  display: grid;
+  row-gap: 32px;
+  padding: 32px 30%;
+}

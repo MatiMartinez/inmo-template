@@ -1,0 +1,27 @@
+.card-zones-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 0;
+  filter: grayscale(100%);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.card-zones-content:hover {
+  filter: grayscale(0);
+}
+
+.card-zones-content:hover .card-zones-title {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.card-zones-title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  margin: 0;
+  transition: all 0.5s;
+}

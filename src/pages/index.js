@@ -1,22 +1,28 @@
 import React from "react"
-import { Link } from "gatsby"
+import "../styles/index.css"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/layout/Layout"
+import Search from "../components/index/search/Search"
+import Hero from "../components/index/hero/Hero"
+import Slogan from "../components/index/slogan/Slogan"
+import Zones from "../components/index/zones/Zones"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
+const IndexPage = () => {
+  return (
+    <Layout>
+      <main>
+        <section className="main-index">
+          <Hero />
+          <Search />
+          <div className="overlay"></div>
+        </section>
+        <section className="main-secondary">
+          <Slogan />
+          <Zones />
+        </section>
+      </main>
+    </Layout>
+  )
+}
 
 export default IndexPage

@@ -1,0 +1,20 @@
+.contact-content {
+  padding: 64px 96px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.contact-subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

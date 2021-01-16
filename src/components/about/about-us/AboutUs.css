@@ -1,0 +1,15 @@
+.about-us-content {
+  text-align: center;
+  padding: 64px 20%;
+}
+
+.about-us-title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.about-us-text {
+  font-size: 1rem;
+  line-height: 2rem;
+}

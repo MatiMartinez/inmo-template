@@ -1,0 +1,29 @@
+.upload-images-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  padding: 18.5px 14px;
+}
+
+.upload-images-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-upload {
+  display: none;
+}
+
+.upload-images-preview {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.upload-images-image {
+  max-width: 100%;
+  height: auto;
+}

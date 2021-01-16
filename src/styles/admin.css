@@ -1,0 +1,14 @@
+.admin-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  row-gap: 16px;
+}
+
+.admin-error {
+  color: red;
+  margin: 0;
+  text-align: center;
+}

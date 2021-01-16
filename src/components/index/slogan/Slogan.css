@@ -1,0 +1,18 @@
+.slogan-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 64px;
+}
+
+.slogan-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.slogan-text {
+  font-size: 1rem;
+  font-weight: 300;
+  grid-column: span 2;
+  margin: 0;
+}
